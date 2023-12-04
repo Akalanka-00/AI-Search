@@ -385,7 +385,7 @@ selected_search_algorithm = "breadth-first"
 alogorithms = {
     "breadth-first": search_agent.breadth_first_search,
     "depth-first": search_agent.depth_first_search,
-    "depth-limit": lambda limit=3: search_agent.depth_limit_search(limit),
+    "depth-limit": lambda limit=2: search_agent.depth_limit_search(limit),
     "iterative-deepening": lambda max_limit=10: search_agent.iterative_deepening_search(max_limit),
     "uniform-cost": search_agent.uniform_cost_search,
     "greedy": search_agent.greedy_search,
